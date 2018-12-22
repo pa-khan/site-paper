@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="template/styles/css/style.css" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css" />
+	<script src="template/scripts/libs.js"></script>
+	<script src="template/scripts/common.js"></script>
+	<!--[if lt IE 9]>
+	<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('main');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+	</script>
+	<![endif]-->
+</head>
+<body>
+<div class="main-wrap">
+	<header class="header">
+		<div class="case">
+			<div class="header__logo"><a href=""><img src="upload/logo.png" alt=""></a></div>
+			<div class="header__desc">Производство санитарно-гигиенической продукции</div>
+			<div class="header__contacts">
+				<p>Нижегородская область, г.Дзержинск, пр-т Ленина, 106</p>
+				<p><a href="tel:+78313263910">8 (8313) 26-39-10</a></p>
+			</div>
+		</div>
+	</header>
+	<nav class="nav">
+		<div class="case">
+			<div class="nav__hum hum">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="nav__list">
+				<ul>
+					<li><a href="">Главная</a></li>
+					<li class="has-subnav">
+						<a href="">О компании</a>
+						<ul>
+							<li><a href="">История компании</a></li>
+							<li><a href="">Ценности компании</a></li>
+							<li><a href="">Сертификаты и декларации</a></li>
+							<li><a href="">Наше производство</a></li>
+							<li><a href="">Покупаем</a></li>
+						</ul>
+					</li>
+					<li><a href="">Новости</a></li>
+					<li>
+						<a href="">Продукция</a>
+						<ul>
+							<li><a href="">Туалетная бумага</a></li>
+							<li><a href="">Профессиональная линейка Vita</a></li>
+							<li><a href="">Бумага-основа</a></li>
+						</ul>
+					</li>
+					<li><a href="">СТМ</a></li>
+					<li><a href="">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main class="main">
+		<div class="case row i-top">
+			<div class="aside">
+				<div class="aside__title">Продукция</div>
+				<div class="aside__block">
+					<div class="nav-block">
+						<div class="nav-block__list">
+							<ul>
+								<li>
+									<a href="#">Туалетная бумага</a>
+									<ul>
+										<li><a href="">макулатурная</a></li>
+										<li><a href="">целлюлозная</a></li>
+									</ul>
+								</li>
+								<li><a href="">Профессиональная линейка Vita</a></li>
+								<li><a href="">Бумага-основа</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="slider slider_main">
+					<div class="slider__list">
+						<div class="slider__item">
+							<div class="slider__img" style="background-image: url('upload/slider/1.png');"></div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__img" style="background-image: url('upload/slider/2.png');"></div>
+						</div>
+					</div>
+					<div class="slider__control">
+						<div class="slider__arrows"></div>
+						<div class="slider__dots"></div>
+					</div>
+				</div>
+				<div class="btns row i-mid mid">
+					<a href="" class="btns__item btn btn_blue btn_small">Скачать форму заказа</a>
+					<a  data-fancybox data-src="#popup-callback" href="javascript:;" class="btns__item btn btn_blue btn_small">Связаться с менедждером</a>
+				</div>
+				<div class="text">
+					<p>Идейные соображения высшего порядка, а также реализация намеченных плановых заданий влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки дальнейших направлений развития. Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке системы обучения кадров, соответствует насущным потребностям. Разнообразный и богатый опыт новая модель организационной деятельности требуют определения и уточнения форм развития.</p>
+				</div>
+				<div class="advantages">
+					<div class="advantages__title title">Преимущества работы с нами</div>
+					<div class="advantages__list row between">
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="upload/icons/hands.png" alt=""></div>
+							<div class="advantages__subtitle">Без посредников</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="upload/icons/paper-like.png" alt=""></div>
+							<div class="advantages__subtitle">Цена и качество производителя</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="upload/icons/production.png" alt=""></div>
+							<div class="advantages__subtitle">Современное производство</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="upload/icons/truck.png" alt=""></div>
+							<div class="advantages__subtitle">Служба доставки</div>
+						</div>
+					</div>
+				</div>
+				<div class="map">
+					<div class="map__title title">Регионы, в которых представлена продукция ООО «Бумага Трейд»</div>
+					<div class="map__wrap" id="vmap"></div>
+					<script type="text/javascript">
+					// Массив всех объектов	
+					var data_obj = {
+						'nn': ['Нижегородская область, <br />г.Дзержинск, пр-т Ленина, 106. <br />8 (8313) 26-39-10'],
+					};
+					
+					colorRegion = '#6da0d6'; // Цвет всех регионов
+					focusRegion = '#0671b8'; // Цвет подсветки регионов при наведении на объекты из списка
+					selectRegion = '#0671b8'; // Цвет изначально подсвеченных регионов
+					
+					highlighted_states = {};
+					
+					// Массив подсвечиваемых регионов, указанных в массиве data_obj
+					for(iso in data_obj){
+						highlighted_states[iso] = selectRegion;
+					}
+					
+					$(document).ready(function() {
+						$('#vmap').vectorMap({
+						    map: 'russia',
+						    backgroundColor: '#ffffff',
+								borderColor: '#a0c1e4',
+								borderWidth: 2,
+						    color: colorRegion,
+								colors: highlighted_states,			
+						    // hoverOpacity: 1,		    
+						    enableZoom: false,
+						    showTooltip: true,
+						    hoverColor: '#0671b8',
+						    selectedColor: '#0671b8',
+							
+							// Отображаем объекты если они есть
+							onLabelShow: function(event, label, code){
+								name = '<strong>'+label.text()+'</strong><br>';				
+								if(data_obj[code]){
+									list_obj = '<ul>';
+									for(ob in data_obj[code]){					
+										list_obj += '<li>'+data_obj[code][ob]+'</li>';
+									}
+									list_obj += '</ul>';
+								}else{
+									list_obj = '';
+								}				
+								label.html(name + list_obj);				
+								list_obj = '';				
+							},			
+							// Клик по региону
+							onRegionClick: function(element, code, region){
+								alert(region+' - ' +code);
+							}			
+						});		
+						
+					});
+					// Выводим список объектов из массива
+					$(document).ready(function() {
+						for(region in data_obj){
+							for(obj in data_obj[region]){
+								$('.list-object').append('<li><a href="'+selectRegion+'" id="'+region+'" class="focus-region">'+data_obj[region][obj]+' ('+region+')</a></li>');
+							}
+						}
+					});
+					
+					// Подсветка регионов при наведении на объекты
+					$(function(){
+						$('.focus-region').mouseover(function(){			
+							iso = $(this).prop('id');
+							fregion = {};
+							fregion[iso] = focusRegion;
+							$('#vmap').vectorMap('set', 'colors', fregion);			
+						});
+						$('.focus-region').mouseout(function(){
+							c = $(this).attr('href');			
+							cl = (c === '#')?colorRegion:c;
+							iso = $(this).prop('id');
+							fregion = {};
+							fregion[iso] = cl;
+							$('#vmap').vectorMap('set', 'colors', fregion);
+						});
+					});	
+					</script>
+				</div>
+				<div class="papers">
+					<div class="papers__list">
+						<div class="papers__item paper paper_right paper_main">
+							<div class="paper__title paper__title_blue">Туалетная бумага «Сотка»</div>
+							<div class="paper__wrap">
+								<div class="paper__data data">
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/line.png" alt=""></div>
+										<div class="data__text">Однослойная</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/perforation.png" alt=""></div>
+										<div class="data__text">С перфорацией</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/tisnenie.png" alt=""></div>
+										<div class="data__text">С тиснением</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/on-vtylka.png" alt=""></div>
+										<div class="data__text">На втулке</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/weight-150.png" alt=""></div>
+										<div class="data__text">Вес рулона +/- 150гр.</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/pack-30.png" alt=""></div>
+										<div class="data__text">30 рулонов в упаковке</div>
+									</div>
+								</div>
+								<div class="paper__content">
+									<div class="paper__img"><img src="upload/production/1.png" alt=""></div>
+								</div>
+								<div class="paper__text">Туалетная бумага “Сотка” изготавливается из макулатуры и поставляется в ПВД упаковке по 30 рулонов в упаковке Ширина рулона - 90мм, цвет серый, диаметр гильзы - 45мм.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="certificates">
+					<div class="certificates__list row">
+						<a href="upload/certificates/1.png" data-fancybox="certificates" class="certificates__item" style="background-image: url('upload/certificates/1.png');"></a>
+						<a href="upload/certificates/2.png" data-fancybox="certificates" class="certificates__item" style="background-image: url('upload/certificates/2.png');"></a>
+						<a href="upload/certificates/2.png" data-fancybox="certificates" class="certificates__item" style="background-image: url('upload/certificates/2.png');"></a>
+						<a href="upload/certificates/2.png" data-fancybox="certificates" class="certificates__item" style="background-image: url('upload/certificates/2.png');"></a>
+					</div>
+				</div>
+				<div class="main-title">История компании</div>
+				<div class="main-title">Профессиональная линейка</div>
+				<div class="main-title">Сертификаты и декларации</div>
+				<div class="main-title">Бумага-основа</div>
+				<div class="main-title">Наше производство</div>
+				<div class="main-title">Новости</div>
+				<div class="main-title">Покупаем</div>
+				<div class="main-title">Собственная торговая марка</div>
+				<div class="main-title">Ценности компании</div>
+				<div class="main-title">Контакты</div>
+				<div class="papers">
+					<div class="papers__title main-title">Туалетная бумага</div>
+					<div class="papers__desc">МАКУЛАТУРНАЯ</div>
+					<div class="papers__text">Макулатурная туалетная бумага - производится из готовой бумага-основы.  Такой тип изготовления называется неполным циклом. В случае, если бумага-основа производится на предприятии, такой цикл называется полный. На сегодняшний день ООО Бумага Трейд готово предложить довольно обширный выбор продукции из макулатурного сырья.</div>
+					<div class="papers__list">
+						<div class="papers__item paper paper_right paper_small">
+							<div class="paper__title">Туалетная бумага «Сотка»</div>
+							<div class="paper__wrap">
+								<div class="paper__data data">
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/line.png" alt=""></div>
+										<div class="data__text">Однослойная</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/perforation.png" alt=""></div>
+										<div class="data__text">С перфорацией</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/tisnenie.png" alt=""></div>
+										<div class="data__text">С тиснением</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/on-vtylka.png" alt=""></div>
+										<div class="data__text">На втулке</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/weight-150.png" alt=""></div>
+										<div class="data__text">Вес рулона +/- 150гр.</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/pack-30.png" alt=""></div>
+										<div class="data__text">30 рулонов в упаковке</div>
+									</div>
+								</div>
+								<div class="paper__content">
+									<div class="paper__img"><img src="upload/production/1.png" alt=""></div>
+									<div class="paper__text">Туалетная бумага “Сотка” изготавливается из макулатуры и поставляется в ПВД упаковке по 30 рулонов в упаковке Ширина рулона - 90мм, цвет серый, диаметр гильзы - 45мм.</div>
+								</div>
+							</div>
+						</div>
+						<div class="papers__item paper paper_small">
+							<div class="paper__title">Туалетная бумага №50 «Яркая»</div>
+							<div class="paper__wrap">
+								<div class="paper__data data">
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/line.png" alt=""></div>
+										<div class="data__text">Однослойная</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/perforation.png" alt=""></div>
+										<div class="data__text">С перфорацией</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/tisnenie.png" alt=""></div>
+										<div class="data__text">С тиснением</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/on-vtylka.png" alt=""></div>
+										<div class="data__text">На втулке</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/weight-90.png" alt=""></div>
+										<div class="data__text">Вес рулона +/- 90гр.</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/pack-40.png" alt=""></div>
+										<div class="data__text">40 рулонов в упаковке</div>
+									</div>
+								</div>
+								<div class="paper__content">
+									<div class="paper__img"><img src="upload/production/1.png" alt=""></div>
+									<div class="paper__text">Туалетная бумага №50 “Яркая” изготавливается из макулатуры  и поставляется в ПВД упаковке по 40 рулонов в упаковке Ширина рулона - 90мм, цвет серый, диаметр гильзы - 45мм.</div>
+								</div>
+							</div>
+						</div>
+						<div class="papers__item paper paper_small">
+							<div class="paper__title">Туалетная бумага №56 «Яркая»</div>
+							<div class="paper__wrap">
+								<div class="paper__data data">
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/line.png" alt=""></div>
+										<div class="data__text">Однослойная</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/perforation.png" alt=""></div>
+										<div class="data__text">С перфорацией</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/tisnenie.png" alt=""></div>
+										<div class="data__text">С тиснением</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/on-vtylka.png" alt=""></div>
+										<div class="data__text">На втулке</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/weight-120.png" alt=""></div>
+										<div class="data__text">Вес рулона +/- 120гр.</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/pack-40.png" alt=""></div>
+										<div class="data__text">40 рулонов в упаковке</div>
+									</div>
+								</div>
+								<div class="paper__content">
+									<div class="paper__img"><img src="upload/production/1.png" alt=""></div>
+									<div class="paper__text">Туалетная бумага №56 “Яркая” изготавливается из макулатуры  и поставляется в ПВД упаковке по 40 рулонов в упаковке Ширина рулона - 90мм, цвет серый, диаметр гильзы - 45мм.</div>
+								</div>
+							</div>
+						</div>
+						<div class="papers__item paper paper_small">
+							<div class="paper__title">Туалетная бумага «Ковалинка»</div>
+							<div class="paper__wrap">
+								<div class="paper__data data">
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/line.png" alt=""></div>
+										<div class="data__text">Однослойная</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/perforation.png" alt=""></div>
+										<div class="data__text">С перфорацией</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/tisnenie.png" alt=""></div>
+										<div class="data__text">С тиснением</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/on-vtylka.png" alt=""></div>
+										<div class="data__text">Без втулки</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/weight-100.png" alt=""></div>
+										<div class="data__text">Вес рулона +/- 100гр.</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/pack-50.png" alt=""></div>
+										<div class="data__text">50 рулонов в упаковке</div>
+									</div>
+								</div>
+								<div class="paper__content">
+									<div class="paper__img"><img src="upload/production/1.png" alt=""></div>
+									<div class="paper__text">Туалетная бумага “Ковалинка” изготавливается из макулатуры  и поставляется в ПВД упаковке по 50 рулонов в упаковке Ширина рулона - 90мм, цвет серый.</div>
+								</div>
+							</div>
+						</div>
+						<div class="papers__item paper paper_small">
+							<div class="paper__title">Полотенца бумажные</div>
+							<div class="paper__wrap">
+								<div class="paper__data data">
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/line.png" alt=""></div>
+										<div class="data__text">Однослойная</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/perforation.png" alt=""></div>
+										<div class="data__text">С перфорацией</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/tisnenie.png" alt=""></div>
+										<div class="data__text">С тиснением</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/on-vtylka.png" alt=""></div>
+										<div class="data__text">Без втулки</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/weight-100.png" alt=""></div>
+										<div class="data__text">Вес рулона +/- 180гр.</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/pack-20.png" alt=""></div>
+										<div class="data__text">20 рулонов в упаковке</div>
+									</div>
+								</div>
+								<div class="paper__content">
+									<div class="paper__img"><img src="upload/production/1.png" alt=""></div>
+									<div class="paper__text">Полотенца бумажные изготавливается из макулатуры  и поставляется в ПВД упаковке по 20 рулонов в упаковке Ширина рулона - 90мм, цвет серый.</div>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="papers">
+					<div class="papers__title main-title">Туалетная бумага</div>
+					<div class="papers__desc">ЦЕЛЛЮЛОЗНАЯ</div>
+					<div class="papers__text">Наибольшую популярность получает туалетная бумага, сделанная из целлюлозы. ООО «Бумага Трейд» предлагает заказать продукцию, которая реализуется по всей России. Целлюлозную бумагу любят за её качество, безупречную мягкость и экологичность.Целлюлозная туалетная бумага экологична и используется повсеместно. Наша компания устанавливает невысокие цены за единицу товара. Поэтому оптовые покупки выгодны. </div>
+					<div class="papers__list">
+						<div class="papers__item paper paper_small">
+							<div class="paper__title">Туалетная бумага “Vita”</div>
+							<div class="paper__wrap">
+								<div class="paper__data data">
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/line-2.png" alt=""></div>
+										<div class="data__text">Двухслойная</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/perforation.png" alt=""></div>
+										<div class="data__text">С перфорацией</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/tisnenie.png" alt=""></div>
+										<div class="data__text">С тиснением</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/on-vtylka.png" alt=""></div>
+										<div class="data__text">На втулке</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/weight-60.png" alt=""></div>
+										<div class="data__text">Вес рулона +/- 60гр.</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/pack-4.png" alt=""></div>
+										<div class="data__text">4 рулона в упаковке</div>
+									</div>
+								</div>
+								<div class="paper__content">
+									<div class="paper__img"><img src="upload/production/1.png" alt=""></div>
+									<div class="paper__text">Туалетная бумага №50 “Яркая” изготавливается из макулатуры  и поставляется в ПВД упаковке по 40 рулонов в упаковке Ширина рулона - 90мм, цвет серый, диаметр гильзы - 45мм.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="papers">
+					<div class="papers__title main-title">Профессиональная линейка</div>
+					<div class="papers__desc"></div>
+					<div class="papers__logo"><img src="upload/vita.png" alt=""></div>
+					<div class="papers__text">Повседневная практика показывает, что консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Задача организации, в особенности же новая модель организационной деятельности требуют от нас анализа модели развития. Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач. </div>
+					<div class="papers__list">
+						<div class="papers__item paper paper_small paper_img-large">
+							<div class="paper__title">ПОЛОТЕНЦА БУМАЖНЫЕ <br>листовые V-сложения</div>
+							<div class="paper__wrap">
+								<div class="paper__data data">
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/line-3.png" alt=""></div>
+										<div class="data__text">С тиснением</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/blago.png" alt=""></div>
+										<div class="data__text">Из облагороженной макулатуры</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/line.png" alt=""></div>
+										<div class="data__text">Однослойная</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/pack-200-250.png" alt=""></div>
+										<div class="data__text">В пачке 200 или 250 листов</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/weight-60.png" alt=""></div>
+										<div class="data__text">Вес рулона +/- 60гр.</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/pack-20.png" alt=""></div>
+										<div class="data__text">20 пачек в упаковке</div>
+									</div>
+								</div>
+								<div class="paper__content">
+									<div class="paper__img"><img src="upload/production/2.png" alt=""></div>
+									<div class="paper__text">Для диспенсеров глубиной 11-15см. Пачка - 2 50 листов. Поставляется в картонной упаковке по 20пачек. Размер листа может изменяться по спец-заказу клиента.</div>
+								</div>
+							</div>
+							<div class="paper__table"><img src="upload/tables/1.png" alt=""></div>
+						</div>
+						<div class="papers__item paper paper_small paper_img-large">
+							<div class="paper__title paper__title_blue">ТУАЛЕТНАЯ БУМАГА <br>профессиональная для диспенсеров</div>
+							<div class="paper__wrap">
+								<div class="paper__data data">
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/roll.png" alt=""></div>
+										<div class="data__text">С перфорацией</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/roll-tis.png" alt=""></div>
+										<div class="data__text">С тиснением</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/blago.png" alt=""></div>
+										<div class="data__text">Из облагороженной макулатуры</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/line.png" alt=""></div>
+										<div class="data__text">Однослойная</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/width-95.png" alt=""></div>
+										<div class="data__text">Ширина рулона - 95 см</div>
+									</div>
+									<div class="data__item">
+										<div class="data__icon"><img src="upload/icons/pack-12.png" alt=""></div>
+										<div class="data__text">12 рулонов в упаковке</div>
+									</div>
+								</div>
+								<div class="paper__content">
+									<div class="paper__img"><img src="upload/production/3.png" alt=""></div>
+									<div class="paper__text">Для диспенсеров глубиной 11-15см. Пачка - 2 50 листов. Поставляется в картонной упаковке по 20пачек. Размер листа может изменяться по спец-заказу клиента.</div>
+								</div>
+							</div>
+							<div class="paper__table"><img src="upload/tables/2.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+				<div class="page text">
+					<!-- История компании -->
+					<p>История компании начинается с 1999 года. Тогда была поставлена первая бумагоделательная машина небольшой производительности. <br>С течением времени в нашей компании происходили обновление и модернизация производственных мощностей и на сегодняшний день компании ООО “Бумага Трейд” представляет собой предприятие с полным циклом переработки макулатуры в готовые изделия (туалетная бумага, бумажные полотенца).</p>
+					<a href="upload/imgs/1.png" data-fancybox=""><img src="upload/imgs/1.png" alt="" class="right"></a>
+					<p>Сейчас предприятие производит бумагу-основу для производства гигиенической туалетной бумаги, а также туалетную бумагу и бумажные полотенца различных марок. <br>На нашем предприятии реализована общепринятая схема производства санитарно-гигиенической бумаги из вторичного сырья, методом многоступенчатой очистки, выделения бумажного волокна и сушки на паровом цилиндре.</p>
+					<div class="row between images">
+						<a href="upload/imgs/2.png" data-fancybox=""><img src="upload/imgs/2.png" alt=""></a>
+						<a href="upload/imgs/3.png" data-fancybox=""><img src="upload/imgs/3.png" alt=""></a>
+					</div>
+					<p>Коллектив предприятия ежедневно работает над повышением качества производимой продукции, осуществляя процессный контроль каждого этапа производства, внедряя новые технологии и повышая профессионализм сотрудников.</p>
+
+					<!-- Сертификаты -->
+					<p>Повседневная практика показывает, что консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Задача организации, в особенности же новая модель организационной деятельности требуют от нас анализа модели развития. Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач.</p>
+
+					<!-- Бумага-основа -->
+					<p>Повседневная практика показывает, что консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Задача организации, в особенности же новая модель организационной деятельности требуют от нас анализа модели развития. Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач.</p>
+					<h2>Характеристики продукции</h2>
+					<p>Основа-бумага, изготавливаемая на собственном предприятии, может служить базисом не только для туалетной бумаги, но также и для носовых платочков, рулонных полотенец, всевозможных салфеток. Продукция санитарно-гигиенического назначения – бумажная основа для туалетной бумаги, качественная основа для салфеток, полотенец – имеет высокие стандарты качества, и предлагаемая продукция соответствует каждому из параметров:</p>
+					<ul>
+						<li>Первичная целлюлоза лиственных пород деревьев.</li>
+						<li>Плотность: от 16 до 26 г/кв.м. (+/- 1г).</li>
+						<li>Белизна: не менее 86%.</li>
+						<li>Диаметр втулки: 76мм.</li>
+						<li>Диаметр ролика: 1100-1200мм.</li>
+						<li>Количество слоев: 1, 2, 3 слоя.</li>
+						<li>Тип: простая и влагопрочная.</li>
+						<li>Ширина полотна с БДМ: 2700 мм.</li>
+					</ul>
+					<a href="upload/imgs/4.png" data-fancybox=""><img src="upload/imgs/4.png" alt="" class="mid"></a>
+					<p>Для удобства использования режем любые форматы (от 4 тонн) при условии полного раскроя полотна. Купить нашу бумагу-основу можно достаточно быстро: оставьте заявку или позвоните по телефону, который указан на сайте – менеджеры готовы предоставить всю информацию и помочь в оформлении покупки.</p>
+
+					<!-- Наше производство -->
+					<p>На нашем предприятии реализована общепринятая схема производства санитарно-гигиенической бумаги из вторичного сырья, методом многоступенчатой очистки, выделения бумажного волокна и сушки на паровом цилиндре. <br>Повседневная практика показывает, что консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Задача организации, в особенности же новая модель организационной деятельности требуют от нас анализа модели развития. Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач.</p>
+
+					<!-- Покупаем -->
+					<p>Компания ООО “Бумага Трейд” постоянно закупает макулатуру марок МС-1А, МС-2А, МС-7Б, МС-8В, согласно ГОСТ 10700-97 «Макулатура бумажная и картонная». <br>А так же ООО "Бумага-Трейд" закупает картонную гильзу (втулку), диаметром 76мм, толщиной стенки - 8 - 12мм.</p>
+					<a href="upload/imgs/5.png" data-fancybox=""><img src="upload/imgs/5.png" alt="" class="mid"></a>
+					<p>Отдел закупок: тел. (8313) 26-45-43, 26-39-10 <br>E-mail: bumagakv@ya.ru</p>
+
+					<!-- Собственная торговая марка -->
+					<p>Мы предлагаем выполнить комплексную разработку вашей собственной торговой марки!</p>
+					<img src="upload/imgs/6.png" alt="" class="mid">
+					<p>Идейные соображения высшего порядка, а также реализация намеченных плановых заданий в значительной степени обуславливает создание направлений прогрессивного развития. Не следует, однако забывать, что начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач. <br>Идейные соображения высшего порядка, а также реализация намеченных плановых заданий в значительной степени обуславливает создание направлений прогрессивного развития. Не следует, однако забывать, что начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач.</p>
+
+					<!-- Ценности компании -->
+					<p>Идейные соображения высшего порядка, а также реализация намеченных плановых заданий влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки дальнейших направлений развития. Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке системы обучения кадров, соответствует насущным потребностям. Разнообразный и богатый опыт новая модель организационной деятельности требуют определения и уточнения форм развития.</p>
+					<p>Равным образом консультация с широким активом требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности позволяет оценить значение дальнейших направлений развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание дальнейших направлений развития. Равным образом консультация с широким активом позволяет выполнять важные задания по разработке дальнейших направлений развития. С другой стороны дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание позиций, занимаемых участниками в отношении поставленных задач. С другой стороны постоянный количественный рост и сфера нашей активности способствует подготовки и реализации существенных финансовых и административных условий.</p>
+					<div class="news-list">
+						<div class="news-list__item">
+							<div class="news-list__data row i-bottom">
+								<div class="news-list__date">18.04.2018</div>
+								<div class="news-list__title"><a href="">Обновление ассортимента</a></div>
+							</div>
+							<div class="news-list__img" style="background-image: url('upload/news/1.png');"></div>
+							<div class="news-list__text">Повседневная практика показывает, что консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Задача организации, в особенности же новая модель организационной деятельности требуют от нас анализа модели развития.</div>
+							<a href="" class="news-list__btn btn btn_blue btn_small">Подробнее</a>
+						</div>
+						<div class="news-list__item">
+							<div class="news-list__data row i-bottom">
+								<div class="news-list__date">16.03.2018</div>
+								<div class="news-list__title"><a href="">Открытие нового подразделения производства</a></div>
+							</div>
+							<div class="news-list__img" style="background-image: url('upload/news/2.png');"></div>
+							<div class="news-list__text">Повседневная практика показывает, что консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Задача организации, в особенности же новая модель организационной деятельности требуют от нас анализа модели развития.</div>
+							<a href="" class="news-list__btn btn btn_blue btn_small">Подробнее</a>
+						</div>
+					</div>
+					<div class="c-page">
+						<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+						<div class="c-page__list">
+							<div class="c-page__item">
+								<div class="c-page__subtitle c-page__subtitle_bold">Производство №1</div>
+								<div class="c-page__text">
+									<p><span class="color-blue">Адрес:</span> 606016, Нижегородская область, г.Дзержинск, пр-т Ленина, 106</p>
+									<p><span class="color-blue">Телефон для оформления заказов:</span> <a href="+78313263910">8 (8313) 26-39-10</a></p>
+									<p><span class="color-blue">Факс:</span> <a href="tel:+78313233583">8 (8313) 26-60-52</a>, <a href="tel:+78313233583">23-35-83</a></p>
+									<p><span class="color-blue">ICQ:</span> 650-275-756</p>
+									<p><span class="color-blue">E-mail:</span> <a href="mailto:bumagadzr@gmail.com" class="email">bumagadzr@gmail.com</a></p>
+								</div>
+								<div class="c-page__subtitle">Схема проезда</div>
+								<div class="c-page__map" id="map-1"></div>
+								<script>
+									ymaps.ready(function () {
+									var myMap = new ymaps.Map('map-1', {
+													center: [56.240413, 43.498223],
+													zoom: 17
+											}, {
+													searchControlProvider: 'yandex#search'
+											}),
+
+
+											myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
+												// Опции.
+												// Необходимо указать данный тип макета.
+												iconLayout: 'default#image',
+												// Своё изображение иконки метки.
+												iconImageHref: 'upload/placeholder.png',
+												// Размеры метки.
+												iconImageSize: [37, 46],
+												// Смещение левого верхнего угла иконки относительно
+												// её "ножки" (точки привязки).
+												iconImageOffset: [-5, -38]
+											});
+									myMap.geoObjects.add(myPlacemark);
+								});
+								</script>
+							</div>
+							<div class="c-page__item">
+								<div class="c-page__subtitle c-page__subtitle_bold">Производство №2</div>
+								<div class="c-page__text">
+									<p><span class="color-blue">Адрес:</span> 606016, Нижегородская область, г.Дзержинск, ш.Восточное, д.38Л, каб.1</p>
+								</div>
+								<div class="c-page__subtitle">Схема проезда</div>
+								<div class="c-page__map" id="map-2"></div>
+								<script>
+									ymaps.ready(function () {
+									var myMap = new ymaps.Map('map-2', {
+													center: [56.253827, 43.598987],
+													zoom: 17
+											}, {
+													searchControlProvider: 'yandex#search'
+											}),
+
+
+											myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
+												// Опции.
+												// Необходимо указать данный тип макета.
+												iconLayout: 'default#image',
+												// Своё изображение иконки метки.
+												iconImageHref: 'upload/placeholder.png',
+												// Размеры метки.
+												iconImageSize: [37, 46],
+												// Смещение левого верхнего угла иконки относительно
+												// её "ножки" (точки привязки).
+												iconImageOffset: [-5, -38]
+											});
+									myMap.geoObjects.add(myPlacemark);
+								});
+								</script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="aside">
+				<div class="aside__title">Новости</div>
+				<div class="aside__block">
+					<div class="news">
+						<div class="news__list">
+							<div class="news__item">
+								<div class="news__subtitle"><a href="">Обновление ассортимента</a></div>
+								<div class="news__date">18.04.2018г.</div>
+								<div class="news__img" style="background-image: url('upload/news/1.png');"></div>
+								<div class="news__text">Появление нового вида продукции в ассортименте предприятия. </div>
+								<a href="" class="news__link btn btn_blue btn_small">Подробнее</a>
+							</div>
+							<div class="news__item">
+								<div class="news__subtitle"><a href="">Открытие нового подразделения производства</a></div>
+								<div class="news__date">16.03.2018г.</div>
+								<div class="news__img" style="background-image: url('upload/news/2.png');"></div>
+								<div class="news__text">В марте 2018 года компания ООО ”Бумага-Трейд” смонтировала и запустила третью бумагоделательную машину.</div>
+								<a href="" class="news__link btn btn_blue btn_small">Подробнее</a>
+							</div> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="case">
+			<div class="footer__company">
+				<div class="footer__logo"><a href=""><img src="upload/logo.png" alt=""></a></div>
+				<div class="footer__desc">Производство санитарно-гигиенической продукции</div>
+			</div>
+			<div class="footer__phone">
+				<p>Телефон для оформления заказов:</p>
+				<p><a href="tel:+78313263910">8(8313) 26-39-10</a></p>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<div class="popup popup_small" id="popup-callback">
+	<div class="popup__title">Заказ обратного звонка</div>
+	<div class="popup__wrap">
+		<div class="popup__input input">
+			<input type="text" class="input__wrap" placeholder="Ваше имя">
+		</div>
+		<div class="popup__input input input_phone">
+			<input type="text" class="input__wrap" placeholder="Ваш номер телефона">
+		</div>
+		<button class="popup__btn btn btn_blue btn_normal">Отправить</button>
+	</div>
+</div>
+
+<div class="popup popup_small" id="popup-thanks">
+	<div class="popup__title">Спасибо!</div>
+	<div class="popup__wrap">
+		<div class="popup__text">Ваша заявка успешно отправлена.</div>
+	</div>
+</div>
+</body>
+</html>
